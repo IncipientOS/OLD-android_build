@@ -82,8 +82,6 @@ $(combo_2nd_arch_prefix)TARGET_thumb_CFLAGS :=  -mthumb \
                         -fomit-frame-pointer \
                         -fno-strict-aliasing
 
-$(combo_2nd_arch_prefix)TARGET_GLOBAL_CFLAGS += -mvectorize-with-neon-quad
-
 # Set FORCE_ARM_DEBUGGING to "true" in your buildspec.mk
 # or in your environment to force a full arm build, even for
 # files that are normally built as thumb; this can make
