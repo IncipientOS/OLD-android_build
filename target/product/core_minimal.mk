@@ -115,22 +115,7 @@ PRODUCT_SYSTEM_SERVER_JARS += \
 # Adoptable external storage f2fs support
 PRODUCT_PACKAGES += \
     fsck.f2fs \
-    mkfs.f2fs \
-
-# Make NTFS
-PRODUCT_PACKAGES += \
-    libntfs-3g \
-    libfuse \
-    mount.ntfs \
-    fsck.ntfs \
-    mkfs.ntfs
-
-# Make exfat
-PRODUCT_PACKAGES += \
-    libexfat \
-    mount.exfat \
-    fsck.exfat \
-    mkfs.exfat
+    mkfs.f2fs
 
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.zygote=zygote32
