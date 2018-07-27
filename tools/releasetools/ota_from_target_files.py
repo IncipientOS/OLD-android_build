@@ -699,6 +699,15 @@ else if get_stage("%(bcb_dev)s") == "3/3" then
 
   system_progress = 0.75
 
+  script.Print("                                                       ");
+  script.Print("    ____           _       _            __  ____  _____");
+  script.Print("   /  _/___  _____(_)___  (_)__  ____  / /_/ __ \/ ___/");
+  script.Print("   / // __ \/ ___/ / __ \/ / _ \/ __ \/ __/ / / /\__ \ ");
+  script.Print(" _/ // / / / /__/ / /_/ / /  __/ / / / /_/ /_/ /___/ / ");
+  script.Print("/___/_/ /_/\___/_/ .___/_/\___/_/ /_/\__/\____//____/  ");
+  script.Print("                /_/                                    ");
+  script.Print("                                                       ");
+
   if OPTIONS.wipe_user_data:
     system_progress -= 0.1
   if HasVendorPartition(input_zip):
